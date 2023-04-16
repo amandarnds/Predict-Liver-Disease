@@ -45,6 +45,34 @@
 <p> -  AUC = It is a metric similar to ROC AUC but with a focus on precision and recall. It is also suitable for imbalanced binary classification problems. <p>
 <p> -  Acurracy =  It is a simple and widely used metric that measures the proportion of examples classified correctly out of the total number of examples  <p>
 
-
 <h2>7. Results </h2>
+
+ <table>
+  <tr>
+    <th> Algorithm</th>
+    <th> ROC_AUC Score</th>
+    <th> AUC Score</th>
+    <th> Accuracy</th>
+  </tr>
+  <tr>
+    <td>Logistic Regression</td>
+    <td>0.705244</td>
+    <td>0.738780</td>
+    <td>67.38</td>
+  </tr>
+  <tr>
+    <td>Decision Tree </td>
+    <td>0.547317</td>
+    <td>0.632805 </td>
+    <td>60.28</td>
+  </tr>
+  <tr>
+    <td>KNN</td>
+    <td>0.532927</td>
+    <td>0.532927</td>
+    <td>60.28</td>
+  <tr>
+</table>
+
+<h2>8. Conclusion </h2>
 <p> According with the results the best algorithm to predict liver disease was Logistic Regression since the results were the greatest <p>
